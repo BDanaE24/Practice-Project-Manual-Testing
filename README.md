@@ -14,7 +14,7 @@ Application under test:
 
 API Documentation: 
 
-**The final project will be split into 2 sections: [Testing section](https://github.com/BDanaE24/Project-Practice-Testing-Manual/edit/main/README.md#1-testing-section) and [SQL section](https://github.com/BDanaE24/Project-Practice-Testing-Manual/blob/main/README.md#2-sql-section-1).**
+**The final project will be split into 2 sections: [Testing section](https://github.com/BDanaE24/Project-Practice-Testing-Manual/edit/main/README.md#1-testing-section) and [SQL section](https://github.com/BDanaE24/Project-Practice-Testing-Manual/blob/main/README.md#2-sql-section-1)**
 
 Tools used:
 
