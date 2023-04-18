@@ -4,7 +4,7 @@ Scopul proiectului final pentru cursul de testare manuală ITF este de a folosi 
 
 Aplicație în curs de testare: 
 
-API Documentation: 
+Documentația API: 
 
 **The final project will be split into 2 sections: [Testing section](# Final project for ITF Manual Testing Course
 
