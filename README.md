@@ -34,12 +34,12 @@ Planul identifică elementele de testat, caracteristicile care trebuie testate, 
 #### 1.1.1 Rolurile atribuite proiectului și persoanele alocate
 
 
-#### 1.1.2 Entry criteria defined
+#### 1.1.2 Criteriile de intrare definite
 
 
-#### 1.1.3 Exit criteria defined
+#### 1.1.3 Criteriile de ieșire definite
 
-#### 1.1.4 Test scope
+#### 1.1.4 Scopul testarii
 
 * __Tests in scope:__ 
 * __Tests not in scope:__ 
