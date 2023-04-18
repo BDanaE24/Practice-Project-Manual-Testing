@@ -53,14 +53,14 @@ Planul identifică elementele de testat, caracteristicile care trebuie testate, 
 
 Criteriile de intrare definite în faza de planificare a testelor au fost atinse și procesul de testare poate continua. 
 
-## 1.2 Test Monitoring and Control
+## 1.2 Monitorizarea și controlul testelor
 
-It will be done by generating periodic reports that reflect the current status of the test.
+Se va realiza prin generarea de rapoarte periodice care reflectă starea curentă a testului.
 
-## 1.3 Test Analysis
+## 1.3 Analiza de testare
 
-The testing process will be executed based on the above requirements for the Dependents module. The following test conditions were found:
- * Enter test conditions here
+Procesul de testare va fi executat pe baza cerințelor de mai sus pentru Dependenți. Au fost găsite următoarele condiții de testare:
+ * Introduceți condițiile de testare aici
 
 ## 1.4 Test Design
 
