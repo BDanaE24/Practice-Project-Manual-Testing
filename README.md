@@ -41,7 +41,7 @@ Planul identifică elementele de testat, caracteristicile care trebuie testate, 
 
 #### 1.1.4 Scopul testarii
 
-* __Teste în domeniu:__ 
+* __Teste în domeniul de aplicare:__ 
 * __Testele nu intra în domeniul de aplicare:__ 
 
 #### 1.1.5 Riscuri detectate
