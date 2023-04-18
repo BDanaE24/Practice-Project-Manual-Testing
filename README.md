@@ -44,10 +44,10 @@ Planul identifică elementele de testat, caracteristicile care trebuie testate, 
 * __Teste în domeniu:__ 
 * __Testele nu intra în domeniul de aplicare:__ 
 
-#### 1.1.5 Risks detected
+#### 1.1.5 Riscuri detectate
 
-* Project risks: 
-* Product risks: 
+* Riscuri de proiect: 
+* Riscuri de produs: 
 
 #### 1.1.6 Evaluating entry criteria
 
