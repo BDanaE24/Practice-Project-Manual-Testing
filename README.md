@@ -62,10 +62,10 @@ Se va realiza prin generarea de rapoarte periodice care reflectă starea curent�
 Procesul de testare va fi executat pe baza cerințelor de mai sus pentru Dependenți. Au fost găsite următoarele condiții de testare:
  * Introduceți condițiile de testare aici
 
-## 1.4 Test Design
+## 1.4 Testare de Design
 
-Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
-are:
+Cazurile de testare funcționale au fost create în Zephyr Squad. Pe baza analizei specifice, tehnicile de proiectare a testelor pentru generarea cazurilor de testare 
+sunt:
 
 **Test cases:**
 -> enter here test cases or at least the titles
