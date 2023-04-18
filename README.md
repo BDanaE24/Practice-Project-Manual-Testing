@@ -31,7 +31,7 @@ Planul de testare este conceput pentru a descrie toate detaliile testării pentr
 
 Planul identifică elementele de testat, caracteristicile care trebuie testate, tipurile de testare care trebuie efectuate, personalul responsabil cu testarea, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul.
 
-#### 1.1.1 Roles assigned to the project and persons allocated
+#### 1.1.1 Rolurile atribuite proiectului și persoanele alocate
 
 
 #### 1.1.2 Entry criteria defined
