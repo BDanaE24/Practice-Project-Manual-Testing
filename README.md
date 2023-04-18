@@ -1,6 +1,6 @@
 # Proiect final pentru ITF Curs de Testare Manuala
 
-The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application. 
+Scopul proiectului final pentru cursul de testare manuală ITF este de a folosi toate cunoștințele acumulate de-a lungul cursului și de a le aplica în practică, utilizând o aplicație live. 
 
 Application under test: 
 
