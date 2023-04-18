@@ -25,11 +25,11 @@ Instrumente folosite:
 
 # 1 Secțiunea de testare
 
-## 1.1 Test Planning
+## 1.1 Planificarea testelor
 
-The Test Plan is designed to describe all details of testing for the X module from the OrangeHRM application. 
+Planul de testare este conceput pentru a descrie toate detaliile testării pentru modulul X din aplicația OrangeHRM. 
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan
+Planul identifică elementele de testat, caracteristicile care trebuie testate, tipurile de testare care trebuie efectuate, personalul responsabil cu testarea, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul.
 
 #### 1.1.1 Roles assigned to the project and persons allocated
 
