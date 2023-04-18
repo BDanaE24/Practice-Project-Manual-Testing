@@ -10,9 +10,9 @@ Documentația API:
 
 Scopul proiectului final pentru Cursul de Testare Manuală ITF este de a folosi toate cunoștințele acumulate de-a lungul cursului și de a le aplica în practică, utilizând o aplicație live. 
 
-Application under test: 
+Aplicație în curs de testare: 
 
-API Documentation: 
+Documentația API: 
 
 **The final project will be split into 2 sections: [Testing section](https://github.com/BDanaE24/Project-Practice-Testing-Manual/edit/main/README.md#1-testing-section) and [SQL section](https://github.com/BDanaE24/Project-Practice-Testing-Manual/blob/main/README.md#2-sql-section-1)**
 
