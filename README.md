@@ -6,7 +6,7 @@ Aplicație în curs de testare:
 
 Documentația API: 
 
-**Proiectul final va fi împărțit în 2 secțiuni: [Testing section](# Final project for ITF Manual Testing Course
+**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](# Proiect final pentru ITF Curs de Testare Manuala
 
 Scopul proiectului final pentru Cursul de Testare Manuală ITF este de a folosi toate cunoștințele acumulate de-a lungul cursului și de a le aplica în practică, utilizând o aplicație live. 
 
