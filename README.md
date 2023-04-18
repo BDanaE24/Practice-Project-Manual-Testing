@@ -16,14 +16,14 @@ Documentația API:
 
 **Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/BDanaE24/Project-Practice-Testing-Manual/edit/main/README.md#1-testing-section) and [SQL section](https://github.com/BDanaE24/Project-Practice-Testing-Manual/blob/main/README.md#2-sql-section-1)**
 
-Tools used:
+Instrumente folosite:
 
-# Functional specifications
+# Specificatii functionale
 
--> enter here the functional specifications created in JIRA
+-> introduceți aici specificațiile funcționale create în JIRA
 
 
-# 1 Testing section
+# 1 Secțiunea de testare
 
 ## 1.1 Test Planning
 
