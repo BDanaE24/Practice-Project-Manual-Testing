@@ -67,17 +67,17 @@ Procesul de testare va fi executat pe baza cerințelor de mai sus pentru Depende
 Cazurile de testare funcționale au fost create în Zephyr Squad. Pe baza analizei specifice, tehnicile de proiectare a testelor pentru generarea cazurilor de testare 
 sunt:
 
-**Test cases:**
--> enter here test cases or at least the titles
+**Cazuri de testare:**
+-> introduceți aici cazurile de testare sau cel puțin titlurile
 
 
-The test cases with steps can be viewed here: [test_cases.pdf]()
+Cazurile de testare cu pași pot fi vizualizate aici: [test_cases.pdf]()
 
-## 1.5 Test Implementation
+## 1.5 Implementarea testului
 
-The following elements are needed to be ready before the test execution phase begins:
+Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testului:
 
-* enter here what needs to be ready for the test execution to begin
+* introduceți aici ceea ce trebuie să fie gata pentru ca execuția testului să înceapă
 
 ## 1.6 Test Execution
 
