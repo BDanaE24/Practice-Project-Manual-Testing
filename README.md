@@ -49,9 +49,9 @@ Planul identifică elementele de testat, caracteristicile care trebuie testate, 
 * Riscuri de proiect: 
 * Riscuri de produs: 
 
-#### 1.1.6 Evaluating entry criteria
+#### 1.1.6 Evaluarea criteriilor de intrare
 
-The entry criterias defined in the Test Planning phase have been achieved and the test process can continue. 
+Criteriile de intrare definite în faza de planificare a testelor au fost atinse și procesul de testare poate continua. 
 
 ## 1.2 Test Monitoring and Control
 
