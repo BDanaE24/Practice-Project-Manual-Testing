@@ -6,7 +6,7 @@ Aplicație în curs de testare:
 
 Documentația API: 
 
-**The final project will be split into 2 sections: [Testing section](# Final project for ITF Manual Testing Course
+**Proiectul final va fi împărțit în 2 secțiuni: [Testing section](# Final project for ITF Manual Testing Course
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application. 
 
