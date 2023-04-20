@@ -1,177 +1,133 @@
-# Proiect final pentru ITF Curs de Testare Manuala
+# Final project for ITF Manual Testing Course
 
-Scopul proiectului final pentru cursul de testare manuală ITF este de a folosi toate cunoștințele acumulate de-a lungul cursului și de a le aplica în practică, utilizând o aplicație live. 
+The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application. 
 
-Aplicație în curs de testare: 
+Application under test: https://opensource-demo.orangehrmlive.com/
 
-Documentația API: 
+API Documentation: https://orangehrm.github.io/orangehrm-api-doc/
 
-**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](# Proiect final pentru ITF Curs de Testare Manuala
+**The final project will be split into 2 sections: [Testing section](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#1-testing-section) and [SQL section](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#2-sql-section).**
 
-Scopul proiectului final pentru Cursul de Testare Manuală ITF este de a folosi toate cunoștințele acumulate de-a lungul cursului și de a le aplica în practică, utilizând o aplicație live. 
+Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench. 
 
-Aplicație în curs de testare: 
+# Functional specifications
 
-Documentația API: 
+The below Story was created in JIRA and describes the functional specifications of the Dependants module, for which the final project is performed upon. 
 
-**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/BDanaE24/Project-Practice-Testing-Manual/edit/main/README.md#1-testing-section) and [SQL section](https://github.com/BDanaE24/Project-Practice-Testing-Manual/blob/main/README.md#2-sql-section-1)**
+![image](https://user-images.githubusercontent.com/99291143/163687093-6f1780d1-2808-4038-9ae2-65c22540a55c.png)
 
-Instrumente folosite:
 
-# Specificatii functionale
+# 1 Testing section
 
--> introduceți aici specificațiile funcționale create în JIRA
+## 1.1 Test Planning
 
+The Test Plan is designed to describe all details of testing for the Dependants module from the OrangeHRM application. 
 
-# 1 Secțiunea de testare
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan
 
-## 1.1 Planificarea testelor
+#### 1.1.1 Roles assigned to the project and persons allocated
 
-Planul de testare este conceput pentru a descrie toate detaliile testării pentru modulul X din aplicația OrangeHRM. 
+* Project manager - Andrei Popescu
+* Product owner - Madalina Ionescu
+* Software developer - Gabriela Tomescu
+* QA Engineer - Iulia Albu
 
-Planul identifică elementele de testat, caracteristicile care trebuie testate, tipurile de testare care trebuie efectuate, personalul responsabil cu testarea, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul.
+#### 1.1.2 Entry criteria defined
 
-#### 1.1.1 Rolurile atribuite proiectului și persoanele alocate
+* functional specifications are defined
+* roles needed for the project are allocated
+* initial project risks were detected and mitigated
 
+#### 1.1.3 Exit criteria defined
 
-#### 1.1.2 Criteriile de intrare definite
+* number of unresolved bugs is insignificant or they have low priority
+* all tests have been executed
+* all resolved bugs have been re-tested and approved by the QA team
+* deadline was reached
+* no detected major risk remained un-mitigated
+* exploratory regression testing must be performed on the My Info module, which includes the Dependents section
 
+#### 1.1.4 Test scope
 
-#### 1.1.3 Criteriile de ieșire definite
+* __Tests in scope:__ All the feature of Dependents module which were defined in software requirement specs need to be tested: functional testing, GUI testing and API testing
+* __Tests not in scope:__ performance testing, integrations of the dependents module with other modules, compatibility testing with multiple browsers
 
-#### 1.1.4 Scopul testarii
+#### 1.1.5 Risks detected
 
-* __Teste în domeniul de aplicare:__ 
-* __Testele nu intra în domeniul de aplicare:__ 
+* Project risks: lack of experience of the QA team, short deadline of Zephyr Squad trial, unavailability of test environment
+* Product risks: validation constraints on the fields might be too restrictive to the end-user
 
-#### 1.1.5 Riscuri detectate
+#### 1.1.6 Evaluating entry criteria
 
-* Riscuri de proiect: 
-* Riscuri de produs: 
+The entry criterias defined in the Test Planning phase have been achieved and the test process can continue. 
 
-#### 1.1.6 Evaluarea criteriilor de intrare
+## 1.2 Test Monitoring and Control
 
-Criteriile de intrare definite în faza de planificare a testelor au fost atinse și procesul de testare poate continua. 
+Variou periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken.
+The following status report was generated after 40% of the test cases were executed, on 1st of April 2022:
 
-## 1.2 Monitorizarea și controlul testelor
+![image](https://user-images.githubusercontent.com/99291143/163689699-e0295daa-e5dc-4e87-a984-546d9351fbac.png)
 
-Se va realiza prin generarea de rapoarte periodice care reflectă starea curentă a testului.
 
-## 1.3 Analiza de testare
+## 1.3 Test Analysis
 
-Procesul de testare va fi executat pe baza cerințelor de mai sus pentru Dependenți. Au fost găsite următoarele condiții de testare:
- * Introduceți condițiile de testare aici
+The testing process will be executed based on the above requirements for the Dependents module. The following test conditions were found:
+ * Enter data only for mandatory fields and check that the dependant is created/updated
+ * Enter data for all available fields and check that the dependant is created/updated
+ * Leave mandatory fields empty and check that the dependant cannot be created/updated
+ * View dependant details and check they are correct
+ * View all dependants in a list
+ * Check all validation constraints for the fields
 
-## 1.4 Testare de Design
+## 1.4 Test Design
 
-Cazurile de testare funcționale au fost create în Zephyr Squad. Pe baza analizei specifice, tehnicile de proiectare a testelor pentru generarea cazurilor de testare 
-sunt:
+Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
+are boundary value analysis, equivalence partitioning and use case testing.
 
-**Cazuri de testare:**
--> introduceți aici cazurile de testare sau cel puțin titlurile
+**Test cases:**
 
+![image](https://user-images.githubusercontent.com/99291143/163688901-26234e0a-abfa-4034-93bf-bca37ad2b50c.png)
 
-Cazurile de testare cu pași pot fi vizualizate aici: [test_cases.pdf]()
 
-## 1.5 Implementarea testului
+The test cases with steps can be viewed here: [Dependents_test_cases.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_test_cases.pdf)
 
-Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testului:
+For the Dependants API, the following checklist was generated: [API_test_checklist.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/API_test_checklist.csv)
 
-* introduceți aici ceea ce trebuie să fie gata pentru ca execuția testului să înceapă
 
-## 1.6 Executarea testului
+## 1.5 Test Implementation
 
-* Cazurile de testare sunt executate pe rezumatul ciclului de testare creat: [cycle_summary_execution.pdf]()
-* Au fost create erori pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici: [created_bugs.pdf]()
-    *  introduceți aici titlurile erorilor
+The following elements are needed to be ready before the test execution phase begins:
 
-
-## 1.7 Finalizarea testului
-
-* Criteriile de ieșire au fost evaluate și trecute
-* Matricea de trasabilitate a fost generată și poate fi găsită aici: [Traceability_matrix.csv]()
-* A fost generat graficul de execuție a testului, raportul final arată.... -> descrieți raportul final
-
--> introduceți aici raportul/graficul de execuție a testului
-
-# 2 Secțiunea SQL
-) and [SQL section](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#2-sql-section).**
-
-Instrumente folosite:
-
-# Specificatii functionale
-
--> introduceți aici specificațiile funcționale create în JIRA
-
-
-# 1 Secțiunea de testare
-
-## 1.1 Planificarea testelor
-
-Planul de testare este conceput pentru a descrie toate detaliile testării pentru modulul X din aplicația OrangeHRM. 
-
-Planul identifică elementele de testat, caracteristicile care trebuie testate, tipurile de testare care trebuie efectuate, personalul responsabil de testare, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul.
-
-#### 1.1.1 Rolurile atribuite proiectului și persoanele alocate
-
-
-#### 1.1.2 Criteriile de intrare definite
-
-
-#### 1.1.3 Criteriile de ieșire definite
-
-#### 1.1.4 Scopul testarii
-
-* __Teste în domeniul de aplicare:__ 
-* __Testele nu intra în domeniul de aplicare:__ 
-
-#### 1.1.5 Riscuri detectate
-
-* Riscuri de proiect: 
-* Riscuri de produs: 
-
-#### 1.1.6 Evaluarea criteriilor de intrare
-
-Criteriile de intrare definite în faza de planificare a testelor au fost atinse și procesul de testare poate continua. 
-
-## 1.2 Monitorizarea și controlul testelor
-
-Se va realiza prin generarea de rapoarte periodice care reflectă starea curentă a testului.
-
-## 1.3 Analiza de testare
-
-Procesul de testare va fi executat pe baza cerințelor de mai sus pentru Dependenți. Au fost găsite următoarele condiții de testare:
- * Introduceți condițiile de testare aici
-
-## 1.4 Testare de Design
-
-Cazurile de testare funcționale au fost create în Zephyr Squad. Pe baza analizei specifice, tehnicile de proiectare a testelor pentru generarea cazurilor de testare 
-sunt:
-
-**Cazuri de testare:**
--> introduceți aici cazurile de testare sau cel puțin titlurile
-
-
-Cazurile de testare cu pași pot fi vizualizate aici: [test_cases.pdf]()
-
-## 1.5 Implementarea testului
-
-Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testului:
-
-* introduceți aici ceea ce trebuie să fie gata pentru ca execuția testului să înceapă
-
-## 1.6 Executarea testului
-
-* Cazurile de testare sunt executate pe rezumatul ciclului de testare creat: [cycle_summary_execution.pdf]()
-* Au fost create erori pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici: [created_bugs.pdf]()
-    *  introduceți aici titlurile erorilor
-
-## 1.7 Finalizarea testului
-
-* Criteriile de ieșire au fost evaluate și trecute
-* Matricea de trasabilitate a fost generată și poate fi găsită aici: [Traceability_matrix.csv]()
-* A fost generat graficul de execuție a testului, raportul final arată.... -> descrieți raportul final
-
--> introduceți aici raportul/graficul de execuție a testului
-
-# 2 Sectiunea SQL 
+* Testing environment is up and running: https://opensource-demo.orangehrmlive.com/
+* Access to the testing environment is given: Username : Admin | Password : admin123
+* Cycle summary was created 
+* Test cases were added to the cycle summary
+* Postman collection with the dependents API methods was created 
+* Authorization token was created for accessing the API
+
+## 1.6 Test Execution
+
+* Test cases are executed on the created test Cycle summary: [Dependents_cycle_summary_execution.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_cycle_summary_execution.pdf)
+* Bugs have been created based on the failed tests. The complete bug reports can be found here: [Dependents_created_bugs.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_created_bugs.pdf)
+    *  Date format is not dd/mm/yyyy
+    *  Future "Date of Birth" can be selected from calendar
+    *  Only 50 characters are allowed for "Please Specify" field
+    *  Only 50 characters are allowed for "Name" field
+    *  Relationship "parent" is missing
+* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for the Dependents API](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/OrangeHRM%20API%20-%20Dependents.postman_collection.json)
+* Full regression testing is needed after the bugs are fixed
+
+## 1.7 Test Completion
+
+* As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+* The traceability matrix was generated and can be found here: [Traceability_matrix.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Traceability_matrix.xlsx)
+* Test execution chart was generated, the final report shows that a number 5 tests have failed of a total of 23 
+* A number of 23 test cases were planned for execution and all of them were executed
+* A number of 5 total bugs were found, from which the priority is: 1 is high, 4 are medium and 1 is low
+
+![image](https://user-images.githubusercontent.com/99291143/163691281-5ccb211d-c101-40ea-bb64-1a4f65f8e1b1.png)
+
+
+# 2 SQL section
+
+Created a database named 'orangehrm' and a table named 'dependents' with all the columns needed to save data per specifications. Performed different queries inside the sql file: [dependents.sql](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/dependents.sql)
