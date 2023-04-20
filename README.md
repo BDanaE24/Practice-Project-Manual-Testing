@@ -167,12 +167,12 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
     *  introduceți aici titlurile erorilor
 
 
-## 1.7 Test Completion
+## 1.7 Finalizarea testului
 
-* Exit criteria was evaluated and passed
-* The traceability matrix was generated and can be found here: [Traceability_matrix.csv]()
-* Test execution chart was generated, the final report shows.... -> describe the final report
+* Criteriile de ieșire au fost evaluate și trecute
+* Matricea de trasabilitate a fost generată și poate fi găsită aici: [Traceability_matrix.csv]()
+* A fost generat graficul de execuție a testului, raportul final arată.... -> descrieți raportul final
 
--> enter here test execution report/chart
+-> introduceți aici raportul/graficul de execuție a testului
 
-# 2 SQL section
+# 2 Sectiunea SQL 
