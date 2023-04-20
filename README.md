@@ -130,33 +130,33 @@ Planul identifică elementele de testat, caracteristicile care trebuie testate, 
 * Riscuri de proiect: 
 * Riscuri de produs: 
 
-#### 1.1.6 Evaluating entry criteria
+#### 1.1.6 Evaluarea criteriilor de intrare
 
-The entry criterias defined in the Test Planning phase have been achieved and the test process can continue. 
+Criteriile de intrare definite în faza de planificare a testelor au fost atinse și procesul de testare poate continua. 
 
-## 1.2 Test Monitoring and Control
+## 1.2 Monitorizarea și controlul testelor
 
-It will be done by generating periodic reports that reflect the current status of the test.
+Se va realiza prin generarea de rapoarte periodice care reflectă starea curentă a testului.
 
-## 1.3 Test Analysis
+## 1.3 Analiza de testare
 
-The testing process will be executed based on the above requirements for the Dependents module. The following test conditions were found:
- * Enter test conditions here
+Procesul de testare va fi executat pe baza cerințelor de mai sus pentru Dependenți. Au fost găsite următoarele condiții de testare:
+ * Introduceți condițiile de testare aici
 
-## 1.4 Test Design
+## 1.4 Testare de Design
 
-Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
-are:
+Cazurile de testare funcționale au fost create în Zephyr Squad. Pe baza analizei specifice, tehnicile de proiectare a testelor pentru generarea cazurilor de testare 
+sunt:
 
-**Test cases:**
--> enter here test cases or at least the titles
+**Cazuri de testare:**
+-> introduceți aici cazurile de testare sau cel puțin titlurile
 
 
-The test cases with steps can be viewed here: [test_cases.pdf]()
+Cazurile de testare cu pași pot fi vizualizate aici: [test_cases.pdf]()
 
-## 1.5 Test Implementation
+## 1.5 Implementarea testului
 
-The following elements are needed to be ready before the test execution phase begins:
+Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testului:
 
 * enter here what needs to be ready for the test execution to begin
 
