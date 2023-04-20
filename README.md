@@ -166,6 +166,7 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 * Au fost create erori pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici: [created_bugs.pdf]()
     *  introduceți aici titlurile erorilor
 
+
 ## 1.7 Finalizarea testului
 
 * Criteriile de ieșire au fost evaluate și trecute
