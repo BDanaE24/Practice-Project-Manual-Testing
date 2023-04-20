@@ -79,11 +79,11 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 
 * introduceți aici ceea ce trebuie să fie gata pentru ca execuția testului să înceapă
 
-## 1.6 Test Execution
+## 1.6 Executarea testului
 
-* Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf]()
-* Bugs have been created based on the failed tests. The complete bug reports can be found here: [created_bugs.pdf]()
-    *  enter here bug titles
+* Cazurile de testare sunt executate pe rezumatul ciclului de testare creat: [cycle_summary_execution.pdf]()
+* Au fost create erori pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici: [created_bugs.pdf]()
+    *  introduceți aici titlurile erorilor
 
 
 ## 1.7 Test Completion
