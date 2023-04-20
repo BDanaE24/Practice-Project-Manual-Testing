@@ -86,49 +86,49 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
     *  introduceți aici titlurile erorilor
 
 
-## 1.7 Test Completion
+## 1.7 Finalizarea testului
 
-* Exit criteria was evaluated and passed
-* The traceability matrix was generated and can be found here: [Traceability_matrix.csv]()
-* Test execution chart was generated, the final report shows.... -> describe the final report
+* Criteriile de ieșire au fost evaluate și trecute
+* Matricea de trasabilitate a fost generată și poate fi găsită aici: [Traceability_matrix.csv]()
+* A fost generat graficul de execuție a testului, raportul final arată.... -> descrieți raportul final
 
--> enter here test execution report/chart
+-> introduceți aici raportul/graficul de execuție a testului
 
-# 2 SQL section
+# 2 Secțiunea SQL
 ) and [SQL section](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#2-sql-section).**
 
-Tools used:
+Instrumente folosite:
 
-# Functional specifications
+# Specificatii functionale
 
--> enter here the functional specifications created in JIRA
-
-
-# 1 Testing section
-
-## 1.1 Test Planning
-
-The Test Plan is designed to describe all details of testing for the X module from the OrangeHRM application. 
-
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan
-
-#### 1.1.1 Roles assigned to the project and persons allocated
+-> introduceți aici specificațiile funcționale create în JIRA
 
 
-#### 1.1.2 Entry criteria defined
+# 1 Secțiunea de testare
+
+## 1.1 Planificarea testelor
+
+Planul de testare este conceput pentru a descrie toate detaliile testării pentru modulul X din aplicația OrangeHRM. 
+
+Planul identifică elementele de testat, caracteristicile care trebuie testate, tipurile de testare care trebuie efectuate, personalul responsabil de testare, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul.
+
+#### 1.1.1 Rolurile atribuite proiectului și persoanele alocate
 
 
-#### 1.1.3 Exit criteria defined
+#### 1.1.2 Criteriile de intrare definite
 
-#### 1.1.4 Test scope
 
-* __Tests in scope:__ 
-* __Tests not in scope:__ 
+#### 1.1.3 Criteriile de ieșire definite
 
-#### 1.1.5 Risks detected
+#### 1.1.4 Scopul testarii
 
-* Project risks: 
-* Product risks: 
+* __Teste în domeniul de aplicare:__ 
+* __Testele nu intra în domeniul de aplicare:__ 
+
+#### 1.1.5 Riscuri detectate
+
+* Riscuri de proiect: 
+* Riscuri de produs: 
 
 #### 1.1.6 Evaluating entry criteria
 
